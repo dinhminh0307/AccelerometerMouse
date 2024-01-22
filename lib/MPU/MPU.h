@@ -10,4 +10,6 @@ extern double accx, accy, accz;       // acceleration in the x, y, z direction
 // ================================================================
 void Init_MPU(void);      // Function to init the MPU6050
 void Get_MPUangle(void);  // Function to get the angle from the MPU6050
+void Get_MPUAcc(void);
+void Get_MPUGyro(void); // Function to get the
 

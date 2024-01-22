@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include<MPU.h>
-
+#include <math.h>
 
 void setup() {
   Serial.begin(9600);
@@ -9,6 +9,6 @@ void setup() {
 
 void loop() {
   Get_MPUangle();
-  Serial.println(anglez);
+  Serial.println(round(anglez));
   delay(180);
 }
